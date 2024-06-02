@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+
+        <title>Simple Calculator </title>
+        <!--simple project with html,css and java script-->
+    </head>
+
+    <body>
+        
+      
+
+        <section class="calculator">
+            <form>
+                <input type="text" class="screen" id="inputext" placeholder="0">
+            </form>
+
+            <div class="buttons">
+                <button type="button" class="btn-red" onclick="clr()" >C</button>
+                <button type="button" class="btn-red" onclick="del()" >DEL</button>
+                <button type="button" class="btn-green" onclick="calculate('%')">%</button>
+                <button type="button" class="btn-green" onclick="calculate('/')">/</button>
+
+                <button type="button" class="btn-white" onclick="calculate(7)" >7</button>
+                <button type="button" class="btn-white" onclick="calculate(8)">8</button>
+                <button type="button" class="btn-white" onclick="calculate(9)">9</button>
+                <button type="button" class="btn-green" onclick="calculate('*')">*</button>
+
+                <button type="button" class="btn-white" onclick="calculate(4)" >4</button>
+                <button type="button" class="btn-white" onclick="calculate(5)">5</button>
+                <button type="button" class="btn-white" onclick="calculate(6)">6</button>
+                <button type="button" class="btn-green" onclick="calculate('-')">-</button>
+            
+                <button type="button" class="btn-white" onclick="calculate(1)">1</button>
+                <button type="button" class="btn-white" onclick="calculate(2)">2</button>
+                <button type="button" class="btn-white" onclick="calculate(3)">3</button>
+                <button type="button" class="btn-green" onclick="calculate('+')">+</button>
+
+                <button type="button" class="btn-white" onclick="calculate('00')">00</button>
+                <button type="button" class="btn-white" onclick="calculate(0)">0</button>
+                <button type="button" class="btn-white" onclick="calculate('.')">.</button>
+
+                <button type="button" class="btn-equal" onclick="Result()">=</button>
+
+                <script src="calculator.js"></script>
+            </div>
+
+        </section>
+
+    </body>
+</html>

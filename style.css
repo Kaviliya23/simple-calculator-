@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: #efeff2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.calculator{
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.3);
+    border-radius: 12px;
+    background: #22252D;
+    overflow: hidden;
+}
+
+.buttons{
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;*/
+    padding:20px ;
+}
+
+.btn-white{
+    background:grey;
+    color: white;
+}
+
+.btn-red{
+    color: red;
+    background:yellow;
+}
+
+.btn-green{
+    color: green;
+}
+
+.btn-equal{
+    color: #efeff2;
+    background: green;
+}
+
+form input{
+    width: 100%;
+    height: 150px;
+    border: none;
+    border-radius: 12px;
+    font-size: 2rem;
+    padding: 1rem;
+    color: #ffff;
+    background: #000;
+    text-align: right;
+    pointer-events: none;  
+    /* this is for control to input otherthan button*/
+}
+button{
+    flex: 5px;
+    margin: 1px 0 ;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
